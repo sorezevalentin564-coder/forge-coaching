@@ -14,7 +14,7 @@ INFORMATIONS SUR FORGE :
 LES 3 PLANS :
 1. STARTER - 49€ (paiement unique) : Bilan morphologique, programme 4-8 semaines, plan nutrition de base, guide vidéo, chatbot IA 24/7. PAS de modifications illimitées, PAS de suivi hebdo.
 
-2. FORGE - 49€/mois (LE PLUS POPULAIRE) : Tout STARTER + modifications illimitées, ajustements hebdomadaires, plan nutrition évolutif, module mindset complet, réponses sous 24h, tracking progression.
+2. FORGE - 59€/mois (LE PLUS POPULAIRE) : Tout STARTER + modifications illimitées, ajustements hebdomadaires, plan nutrition évolutif, module mindset complet, réponses sous 24h, tracking progression.
 
 3. ELITE - 89€/mois : Tout FORGE + accès WhatsApp direct avec le coach Valentin, conseils personnalisés à la demande, analyse vidéo des exercices, plan nutrition ultra-précis, réponses sous 2h, accès groupe privé ELITE.
 
@@ -84,7 +84,7 @@ export default async function handler(req, res) {
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-sonnet-4-5',
         max_tokens: 1024,
         system: SYSTEM_PROMPT,
         messages: limitedMessages
